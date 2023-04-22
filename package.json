@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.4.2",
+    "nuxt-icon": "^0.3.3",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.62.0",
+    "sass-loader": "^10.4.1"
+  },
+  "dependencies": {
+    "gsap": "latest",
+    "three": "latest",
+    "troisjs": "latest"
+  }
+}

@@ -3,8 +3,8 @@
 export default defineNuxtConfig({
     // @ts-ignore
     css: ['@/assets/styles.css'],
-    modules: ['nuxt-icon'],
+    modules: ['nuxt-icon', '@nuxtjs/tailwindcss' ],
     build: {
-        transpile: [ 'troisjs', 'gsap' ]
+        transpile: [ 'troisjs', 'gsap']
     }
 })
